@@ -7,7 +7,7 @@ package Chapter1;
  * @description:
  * @result:
  */
-public class Exe02 {
+public class Exe02_AddTwoNumbers {
     static class ListNode {
         int val;
         ListNode next;
@@ -47,6 +47,6 @@ public class Exe02 {
         ListNode p4 = new ListNode(4);
         l2.next = p3; p3.next = p4;
 
-        new Exe02().addTwoNumbers(l1,l2);
+        new Exe02_AddTwoNumbers().addTwoNumbers(l1,l2);
     }
 }

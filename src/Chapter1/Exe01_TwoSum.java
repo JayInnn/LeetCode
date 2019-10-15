@@ -9,7 +9,7 @@ import java.util.HashMap;
  * @description:
  * @result:
  */
-public class Exe01 {
+public class Exe01_TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] index = new int[2];
         int size = (new Double(nums.length / 0.75)).intValue();
