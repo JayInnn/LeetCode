@@ -7,7 +7,7 @@ package Chapter1;
  * @description:
  * @result:
  */
-public class Exe05_Convert {
+public class Exe06_Convert {
 
     public String convert(String s, int numRows) {
         if (s == null || s.length() == 0 || numRows <= 1)
@@ -30,6 +30,6 @@ public class Exe05_Convert {
 
     public static void main(String[] args){
         String s = "LEETCODEISHIRING";
-        System.out.println(new Exe05_Convert().convert(s, 2));
+        System.out.println(new Exe06_Convert().convert(s, 2));
     }
 }
