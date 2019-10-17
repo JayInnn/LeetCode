@@ -7,7 +7,7 @@ package Chapter1;
  * @description:
  * @result:
  */
-public class Exe04_LongestPalindrome {
+public class Exe05_LongestPalindrome {
     public String longestPalindrome_direct(String s) {
         if (s == null || s.length() == 0)
             return "";
@@ -71,6 +71,6 @@ public class Exe04_LongestPalindrome {
     }
 
     public static void main(String[] args){
-        System.out.println(new Exe04_LongestPalindrome().longestPalindrome("CABCBAAAAAA"));
+        System.out.println(new Exe05_LongestPalindrome().longestPalindrome("CABCBAAAAAA"));
     }
 }
