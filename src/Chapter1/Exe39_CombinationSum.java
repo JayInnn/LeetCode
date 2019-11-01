@@ -20,7 +20,7 @@ public class Exe39_CombinationSum {
         return ans;
     }
 
-    private void comb(List<List<Integer>> ans, int[] candidates, LinkedList stack, int target, int start){
+    private void comb(List<List<Integer>> ans, int[] candidates, LinkedList<Integer> stack, int target, int start){
         if (target == 0)
             ans.add(new ArrayList<Integer>(stack));
         for (int i = start; i < candidates.length && target - candidates[i] >= 0; i++){
@@ -29,7 +29,6 @@ public class Exe39_CombinationSum {
             stack.pop();
         }
     }
-
 
     public static void main(String[] args){
         int[] candidates = {8,7,4,3};
