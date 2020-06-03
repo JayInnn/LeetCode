@@ -1,7 +1,5 @@
 package Hot_100;
 
-import com.sun.org.apache.regexp.internal.RE;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
